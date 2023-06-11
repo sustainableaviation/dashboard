@@ -44,5 +44,8 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 
 ### Interactive Dashboards
 
-- 🎛️ [Boeing Cascade Interactive Dashboard](https://cascade.boeing.com/)
-- 🎛️ [ISAE-SUPAERO AeroMAPS Interactive Dashboard](https://aeromaps.isae-supaero.fr/)
+- 🎛️ [Boeing Cascade Interactive Dashboard](https://cascade.boeing.com/) \
+[![Internet Archive](https://img.shields.io/badge/Archived-Wayback%20Machine-brown?style=flat&logo=internet-archive)](https://web.archive.org/web/20230524142656/https://cascade.boeing.com/)
+- 🎛️ [ISAE-SUPAERO AeroMAPS Interactive Dashboard](https://aeromaps.isae-supaero.fr/) \
+![Website](https://img.shields.io/website?down_color=lightgrey&down_message=Offline&label=Website&logo=firefoxbrowser&logoColor=white&up_color=green&up_message=Online&url=https%3A%2F%2Faeromaps.isae-supaero.fr%2F)
+[![Internet Archive](https://img.shields.io/badge/Archived-Wayback%20Machine-brown?style=flat&logo=internet-archive)](https://web.archive.org/web/20230611122647/https://aeromaps.isae-supaero.fr/)
