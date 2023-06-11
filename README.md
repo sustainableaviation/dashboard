@@ -39,3 +39,10 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 ## Efficiency Limits of Transport
 
 - [von Kármán–Gabrielli diagram](https://en.wikipedia.org/wiki/Von_K%C3%A1rm%C3%A1n%E2%80%93Gabrielli_diagram)
+
+## Pathways to Sustainable Aviation
+
+### Interactive Dashboards
+
+- 🎛️ [Boeing Cascade Interactive Dashboard](https://cascade.boeing.com/)
+- 🎛️ [ISAE-SUPAERO AeroMAPS Interactive Dashboard](https://aeromaps.isae-supaero.fr/)
