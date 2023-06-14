@@ -51,3 +51,11 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 - 🎛️ [ISAE-SUPAERO AeroMAPS Interactive Dashboard](https://aeromaps.isae-supaero.fr/) \
 ![Website](https://img.shields.io/website?down_color=lightgrey&down_message=Offline&label=Website&logo=firefoxbrowser&logoColor=white&up_color=green&up_message=Online&url=https%3A%2F%2Faeromaps.isae-supaero.fr)
 [![Internet Archive](https://img.shields.io/badge/Archived-Wayback%20Machine-brown?style=flat&logo=internet-archive)](https://web.archive.org/web/20230611122647/https://aeromaps.isae-supaero.fr/)
+
+## Statistics
+
+- 🧮 [International Transport Forum (ITF)](https://www.itf-oecd.org/transport-data-and-statistics)
+
+## Reports
+
+- 📄 [International Transport Forum (ITF): Aviation Publications](https://www.itf-oecd.org/search/research?f%2525255B0%2525255D=field_publication_type%3A637&f%2525255B1%2525255D=field_publication_type%3A646&f%2525255B2%2525255D=field_publication_type%3A645&f%2525255B3%2525255D=field_publication_type%3A2350&f%2525255B4%2525255D=field_publication_type%3A647&f%2525255B5%2525255D=field_publication_type%3A2349&f%2525255B6%2525255D=field_publication_type%3A317&f%5B0%5D=field_publication_type%3A637&f%5B1%5D=field_publication_type%3A646&f%5B2%5D=field_publication_type%3A645&f%5B3%5D=field_publication_type%3A2350&f%5B4%5D=field_publication_type%3A647&f%5B5%5D=field_publication_type%3A2349&f%5B6%5D=field_publication_type%3A317&f%5B7%5D=field_theme_tax%3A3)
