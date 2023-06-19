@@ -59,3 +59,8 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 ## Reports
 
 - 📄 [International Transport Forum (ITF): Aviation Publications](https://www.itf-oecd.org/search/research?f%2525255B0%2525255D=field_publication_type%3A637&f%2525255B1%2525255D=field_publication_type%3A646&f%2525255B2%2525255D=field_publication_type%3A645&f%2525255B3%2525255D=field_publication_type%3A2350&f%2525255B4%2525255D=field_publication_type%3A647&f%2525255B5%2525255D=field_publication_type%3A2349&f%2525255B6%2525255D=field_publication_type%3A317&f%5B0%5D=field_publication_type%3A637&f%5B1%5D=field_publication_type%3A646&f%5B2%5D=field_publication_type%3A645&f%5B3%5D=field_publication_type%3A2350&f%5B4%5D=field_publication_type%3A647&f%5B5%5D=field_publication_type%3A2349&f%5B6%5D=field_publication_type%3A317&f%5B7%5D=field_theme_tax%3A3)
+
+## Research Initiatives
+
+ - 🇬🇧 [Aerospace Technology Institute](https://www.ati.org.uk/)
+ - 🇬🇧 [Aviation Impact Accellerator](https://www.aiazero.org/)
