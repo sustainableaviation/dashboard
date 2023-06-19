@@ -64,3 +64,7 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 
  - 🇬🇧 [Aerospace Technology Institute](https://www.ati.org.uk/)
  - 🇬🇧 [Aviation Impact Accellerator](https://www.aiazero.org/)
+
+## Industry/Academia Collaboration
+
+- 🇪🇺 [Alliance for Zero-Emission Aviation](https://defence-industry-space.ec.europa.eu/eu-aeronautics-industry/alliance-zero-emission-aviation_en)
