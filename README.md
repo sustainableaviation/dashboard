@@ -68,3 +68,7 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 ## Industry/Academia Collaboration
 
 - 🇪🇺 [Alliance for Zero-Emission Aviation](https://defence-industry-space.ec.europa.eu/eu-aeronautics-industry/alliance-zero-emission-aviation_en)
+
+## Varia
+
+- [Smmithsonian Air and Space Museum: Commercial Aviation](https://airandspace.si.edu/explore/topics/aviation/commercial-aviation)
