@@ -56,6 +56,17 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 
 - 🧮 [International Transport Forum (ITF)](https://www.itf-oecd.org/transport-data-and-statistics)
 
+## "Net Zero by 2050 Roadmaps"
+
+### International Organizations
+
+ - IATA (2023): [Net Zero Roadmaps](https://www.iata.org/en/programs/environment/roadmaps/)
+   - 📄 [Executive Summary](https://web.archive.org/web/20230604163435/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/executive-summary---net-zero-roadmaps.pdf)
+   - 📄 [Aircraft Technology](https://web.archive.org/web/20230718102031/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/aircraft-technology-net-zero-roadmap.pdf)
+   - 📄 [Operations](https://web.archive.org/web/20230604163424/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/operations-net-zero-roadmap.pdf)
+   - 📄 [Finance](https://web.archive.org/web/20230604163430/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/finance-net-zero-roadmap.pdf)
+   - 📄 [Policy](https://web.archive.org/web/20230604163533/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/policy-net-zero-roadmap.pdf)
+
 ## Reports
 
 - 📄 [International Transport Forum (ITF): Aviation Publications](https://www.itf-oecd.org/search/research?f%2525255B0%2525255D=field_publication_type%3A637&f%2525255B1%2525255D=field_publication_type%3A646&f%2525255B2%2525255D=field_publication_type%3A645&f%2525255B3%2525255D=field_publication_type%3A2350&f%2525255B4%2525255D=field_publication_type%3A647&f%2525255B5%2525255D=field_publication_type%3A2349&f%2525255B6%2525255D=field_publication_type%3A317&f%5B0%5D=field_publication_type%3A637&f%5B1%5D=field_publication_type%3A646&f%5B2%5D=field_publication_type%3A645&f%5B3%5D=field_publication_type%3A2350&f%5B4%5D=field_publication_type%3A647&f%5B5%5D=field_publication_type%3A2349&f%5B6%5D=field_publication_type%3A317&f%5B7%5D=field_theme_tax%3A3)
