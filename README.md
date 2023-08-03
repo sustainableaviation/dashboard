@@ -60,12 +60,10 @@ https://www1.grc.nasa.gov/aeronautics/hytec/
 
 ### International Organizations
 
- - IATA (2023): [Net Zero Roadmaps](https://www.iata.org/en/programs/environment/roadmaps/)
-   - 📄 [Executive Summary](https://web.archive.org/web/20230604163435/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/executive-summary---net-zero-roadmaps.pdf)
-   - 📄 [Aircraft Technology](https://web.archive.org/web/20230718102031/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/aircraft-technology-net-zero-roadmap.pdf)
-   - 📄 [Operations](https://web.archive.org/web/20230604163424/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/operations-net-zero-roadmap.pdf)
-   - 📄 [Finance](https://web.archive.org/web/20230604163430/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/finance-net-zero-roadmap.pdf)
-   - 📄 [Policy](https://web.archive.org/web/20230604163533/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/policy-net-zero-roadmap.pdf)
+ - IATA: [🌐 Net Zero Roadmaps (2023)](https://www.iata.org/en/programs/environment/roadmaps/), Net Zero Roadmap on p.15 of the [📄 Executive Summary](https://web.archive.org/web/20230604163435/https://www.iata.org/contentassets/8d19e716636a47c184e7221c77563c93/executive-summary---net-zero-roadmaps.pdf)
+ - ATAG: [📄 Waypoint 2050 Report, 2nd Edition (2021)](https://web.archive.org/web/20230518021656/https://aviationbenefits.org/media/167417/w2050_v2021_27sept_full.pdf), Net Zero Roadmaps on p.23-25
+ - Eurocontrol: [📄 Aviation Outlook 2050 (2022)](https://web.archive.org/web/20221020133728/https://www.eurocontrol.int/archive_download/all/node/13448), Net Zero Roadmaps on p.12-13
+ - Aviation Research Center Switzerland: [📄 Final Report (2021)](https://web.archive.org/web/20230131164535/https://www.arcs.aero/sites/default/files/downloads/RMSA_sb_2021_05_27.pdf), Net Zero Roadmap on p.15
 
 ## Reports
 
