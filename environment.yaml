@@ -1,0 +1,17 @@
+name: aviation_dashboard
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # core funcitonality
+  - python=3.11
+  # data science
+  - jupyterlab
+  - scipy  
+  - numpy
+  - pandas
+  # I/O
+  - openpyxl
+  # plotting
+  - panel
+  - bokeh
