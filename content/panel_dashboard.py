@@ -657,4 +657,6 @@ selection = pn.widgets.RadioButtonGroup(options=['Forecast', 'Historic Efficienc
 selection.param.watch(update_dashboard, 'value')
 
 layout = pn.Column(header,line, selection,line, dashboard_container)
-layout.servable()
+layout.show()
+
+# %%
