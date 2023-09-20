@@ -1,6 +1,6 @@
-# Dashboard Options
+# Dashboard Infrastructure
 
-## Dashboarding Tools
+## Dashboard Tools Comparison
 
 ["Big Four" Dashboarding Tools (by Dharhas Pothina of Quansight)](https://quansight.com/post/dash-voila-panel-streamlit-our-thoughts-on-the-big-four-dashboarding-tools/)
 
@@ -12,50 +12,54 @@
 
 [Streamlit vs Dash vs Voila vs Panel — Battle of The Python Dashboarding Giants by Stephen Kilcommins of DataDrivenInvestor](https://medium.datadriveninvestor.com/streamlit-vs-dash-vs-voilà-vs-panel-battle-of-the-python-dashboarding-giants-177c40b9ea57#8026)
 
+> Voilà: To be used in a scenario where you have a Jupyter/IPython notebook with some data analysis already conducted, and you want to share the data insights with colleagues without the code cells cluttering up the view. Panel: Creating dashboard applications which are not restricted to a single GUI.
+
 See also: [HackerNews Discussion](https://news.ycombinator.com/item?id=28364923)
+
+See also: Comparisons in the Panel documentation: 
+[`panel` vs `dash`](https://panel.holoviz.org/explanation/comparisons/compare_dash.html#), [`panel` vs `ipywidgets`](https://panel.holoviz.org/explanation/comparisons/compare_ipywidgets.html), [`panel` vs `voila`](https://panel.holoviz.org/explanation/comparisons/compare_voila.html).
 
 [![Star History Chart](https://api.star-history.com/svg?repos=holoviz/panel,plotly/dash,voila-dashboards/voila,voila-dashboards/voici,streamlit/streamlit,jupyter-widgets/ipywidgets&type=Date)](https://star-history.com/#holoviz/panel&plotly/dash&voila-dashboards/voila&voila-dashboards/voici&streamlit/streamlit&jupyter-widgets/ipywidgets&Date)
 
+## Dashboard Deployment Comparison
 
-### Server-Based
+| Dashboard Tool | WASM Status | Comment |
+| -------------- | ----------- | ------- |
+| `panel` | [Full Support (based on `pyodide`)](https://panel.holoviz.org/how_to/wasm/index.html) | |
+| `voila` | [Full Support through `voici` (based on `xeus-python-kernel`)](https://voici.readthedocs.io/en/latest/) | Currently buggy |
+| `dash` | [Alpha Stage Prototypes (3rd Party)](https://medium.com/plotly/dash-club-6-webassembly-summer-app-challenge-show-tell-60a3b1cd9f41) | see also [`webdash`](https://github.com/ibdafna/webdash) |
+| `streamlit` | [Alpha Stage Prototypes (3rd Party)](https://discuss.streamlit.io/t/new-library-stlite-a-port-of-streamlit-to-wasm-powered-by-pyodide/25556) | see also [`stlite`](https://github.com/whitphx/stlite) |
+
+See also:
 
 - [ContainDS Dashboards](https://github.com/ideonate/cdsdashboards) (from the discussion here: https://github.com/voila-dashboards/voila/issues/112)
 
- - https://dash.plotly.com/
+## Tools
 
-#### Voila
+### Voila
 
 [Documentation](https://voila.readthedocs.io/) \
 [GitHub Repo](https://github.com/voila-dashboards/voila)
 
+### Voici (based on Voila)
 
-### Comparisons
+[Documentation](https://voici.readthedocs.io/en/latest/) \
+[GitHub Repo](https://github.com/voila-dashboards/voici)
 
-[`panel` vs `dash`](https://panel.holoviz.org/explanation/comparisons/compare_dash.html#) \
-[`panel` vs `ipywidgets`](https://panel.holoviz.org/explanation/comparisons/compare_ipywidgets.html) \
-[`panel` vs `voila`](https://panel.holoviz.org/explanation/comparisons/compare_voila.html)
+### Panel
 
-### Browser-Based
-
-#### Panel
-
+[Documentation](https://panel.holoviz.org) \
+[GitHub Repo](https://github.com/holoviz/panel) \
 ["Awesome Panel" Documentation](https://awesome-panel.org)
 
 Working examples (WASM):
 
  - https://panel.holoviz.org/pyodide/hvplot_explorer
  - https://panel.holoviz.org/pyodide/portfolio_optimizer
- - https://panel.holoviz.org/pyodide/portfolio_analyzer - seems to be broken
 
-#### Voici (based on Voila)
-
-[Documentation](https://voici.readthedocs.io/en/latest/) \
-[GitHub Repo](https://github.com/voila-dashboards/voici)
-
-#### Panel
-
-- https://panel-gallery.pyviz.demo.anaconda.com/portfolio_optimizer
-- https://github.com/holoviz/panel/blob/af242fadf07fe9a28172728c915901496afc4a82/examples/gallery/portfolio_optimizer.ipynb#L4
+```{note}
+Some examples are currently broken, see: https://github.com/holoviz/panel/issues/5521
+```
 
 ## Examples Projects
 
@@ -64,7 +68,7 @@ Working examples (WASM):
 | [AeroMaps](https://github.com/AeroMAPS/AeroMAPS) | Univ. of Toulouse | [voila + iPywidgets in a Jupyter Notebook](https://github.com/AeroMAPS/AeroMAPS/blob/ba80176a1d02caeed706a88063f8834f50b82416/aeromaps/gui/graphical_user_interface.py#L754) | mybinder.org |
 | [Cascade](https://cascade.boeing.com/strategy) | Boeing | [JavaScript](https://builtwith.com/?https%3a%2f%2fcascade.boeing.com%2fstrategy) | Server |
 
-### 
+### AeroMaps Project
 
 - [Dashboard: AeroMaps](https://aeromaps.isae-supaero.fr)
 - [Dashboard Documentation](https://aeromaps.github.io/AeroMAPS/intro.html)
