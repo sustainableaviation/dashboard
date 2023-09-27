@@ -55,12 +55,24 @@ See also:
 
 Working examples (WASM):
 
- - https://panel.holoviz.org/pyodide/hvplot_explorer
  - https://panel.holoviz.org/pyodide/portfolio_optimizer
 
 ```{note}
 Some examples are currently broken, see: https://github.com/holoviz/panel/issues/5521
 ```
+
+#### WASM Workflow
+
+Functionality development:
+
+1. Develop Panel application, [using the `autoreload` command](https://panel.holoviz.org/how_to/server/commandline.html#launching-a-server-on-the-commandline) to enable live loading of the application.
+
+WASM development and deployment:
+
+2. Develop Panel application, [using the `panel convert ... --watch` command](https://panel.holoviz.org/how_to/wasm/convert.html#converting-panel-applications) to enable live loading of the application.
+3. Use the `panel convert ... --to pyodide-worker` command to convert the Panel application to a Pyodide web worker (an `.html` + `.js` file). These files [can be deployed to a static web server (e.g. Github pages)](https://panel.holoviz.org/how_to/wasm/convert.html#example):
+
+> You can now add the script.html (and script.js file if you used the pyodide-worker target) to your Github pages or similar. no separate server needed!
 
 ## Examples Projects
 
