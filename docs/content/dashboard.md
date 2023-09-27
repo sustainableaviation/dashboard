@@ -14,10 +14,11 @@
 
 > Voilà: To be used in a scenario where you have a Jupyter/IPython notebook with some data analysis already conducted, and you want to share the data insights with colleagues without the code cells cluttering up the view. Panel: Creating dashboard applications which are not restricted to a single GUI.
 
-See also: [HackerNews Discussion](https://news.ycombinator.com/item?id=28364923)
-
-See also: Comparisons in the Panel documentation: 
+```{seealso}
+[HackerNews Discussion](https://news.ycombinator.com/item?id=28364923) \
+Comparisons in the Panel documentation: 
 [`panel` vs `dash`](https://panel.holoviz.org/explanation/comparisons/compare_dash.html#), [`panel` vs `ipywidgets`](https://panel.holoviz.org/explanation/comparisons/compare_ipywidgets.html), [`panel` vs `voila`](https://panel.holoviz.org/explanation/comparisons/compare_voila.html).
+```
 
 [![Star History Chart](https://api.star-history.com/svg?repos=holoviz/panel,plotly/dash,voila-dashboards/voila,voila-dashboards/voici,streamlit/streamlit,jupyter-widgets/ipywidgets&type=Date)](https://star-history.com/#holoviz/panel&plotly/dash&voila-dashboards/voila&voila-dashboards/voici&streamlit/streamlit&jupyter-widgets/ipywidgets&Date)
 

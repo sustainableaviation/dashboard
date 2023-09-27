@@ -9,7 +9,7 @@ import os
 ###################################################################################################
 
 project = 'Sustainable Aviation Dashboard'
-copyright = datetime.date.today().strftime("%Y") + 'Michael Weinold et al.'
+copyright = datetime.date.today().strftime("%Y") + ' Paul Scherrer Institute'
 version: str = 'latest' # required by the version switcher
 
 ###################################################################################################
