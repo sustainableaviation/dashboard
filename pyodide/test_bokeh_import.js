@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/1.2.3/dist/wheels/bokeh-3.2.2-py3-none-any.whl', 'https://cdn.holoviz.org/panel/1.2.3/dist/wheels/panel-1.2.3-py3-none-any.whl', 'pyodide-http==0.2.1']
+  const env_spec = ['https://cdn.holoviz.org/panel/1.2.3/dist/wheels/bokeh-3.2.2-py3-none-any.whl', 'https://cdn.holoviz.org/panel/1.2.3/dist/wheels/panel-1.2.3-py3-none-any.whl', 'pyodide-http==0.2.1', 'pandas']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -56,6 +56,7 @@ init_doc()
 
 
 import panel as pn
+import pandas as pd
 import bokeh as bk
 
 
@@ -65,23 +66,20 @@ import bokeh as bk
 pn.extension() # required for panel to work in notebook, https://panel.holoviz.org/getting_started/core_concepts.html#notebook
 
 
-# # Static Figure
-# 
-# Source: [Bokeh Documentation: Positioning the Toolbar](https://docs.bokeh.org/en/latest/docs/user_guide/interaction/tools.html#positioning-the-toolbar)
+# # Load Data
 
 # In[3]:
 
 
-p = bk.plotting.figure(
-    width=400, height=400,
-    title=None, toolbar_location="below"
-)
+csv_file = ("https://raw.githubusercontent.com/sustainableaviation/aircraft_efficiency_dashboard/main/data/dashboard.csv")
+data = pd.read_csv(csv_file)
 
-p.circle([1, 2, 3, 4, 5], [2, 5, 8, 2, 7], size=10)
 
-bokeh_pane = pn.pane.Bokeh(p, theme="dark_minimal")
+# In[7]:
+
+
+bokeh_pane = pn.pane.DataFrame(data.head(50), sizing_mode="stretch_both", max_height=300)
 bokeh_pane.servable()
-bokeh_pane
 
 
 # See also: [Panel Documentation: Rendering](https://panel.holoviz.org/getting_started/core_concepts.html#display-and-rendering)
@@ -89,7 +87,7 @@ bokeh_pane
 # Run from the command line:
 # 
 # \`\`\`bash
-# panel convert test_bokeh_static.ipynb --to pyodide-worker --out pyodide
+# panel convert test_bokeh_import.ipynb --to pyodide-worker --out pyodide
 # python3 -m http.server & open http://localhost:8000/pyodide/test_bokeh_static.html
 # \`\`\`
 
