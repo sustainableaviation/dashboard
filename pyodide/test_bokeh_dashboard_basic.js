@@ -85,7 +85,7 @@ pn.extension(design='material')
 # In[3]:
 
 
-df_ida: pd.DataFrame = pd.read_excel("/Users/michaelweinold/github/aircraft_efficiency_dashboard/data/dashboard.xlsx")
+df_ida: pd.DataFrame = pd.read_excel("https://raw.githubusercontent.com/sustainableaviation/aircraft_efficiency_dashboard/main/data/dashboard.xlsx")
 df_ida = df_ida.set_index('YOI')
 initial = pd.Series([0]*len(df_ida.columns), name=1959)
 df_ida.loc[1959] = 0
