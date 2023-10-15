@@ -28,3 +28,9 @@ panel convert <PANEL_APP> --to pyodide-worker --index --requirements <REQUIREMEN
 ```
 
 The GitHub Actions workflow [`deploy.yml`](./.github/workflows/deploy.yml) will deploy the `./pyodide/index.html`) to GitHub Pages on every push to the `main` branch.
+
+## Build the Documentation
+
+```bash
+sphinx-autobuild docs _build/html -a -j auto --open-browser
+```

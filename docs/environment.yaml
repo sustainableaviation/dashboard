@@ -23,4 +23,7 @@ dependencies:
   - jupyterlite-sphinx=0.9.3 # jupyterlite support # https://anaconda.org/conda-forge/jupyterlite-sphinx/files
   - jupyterlite-pyodide-kernel=0.1.2 # pyodide support # https://anaconda.org/conda-forge/jupyterlite-pyodide-kernel/files
   # dashboard and plotting
-  - pyviz::nbsite=0.8.2 # https://anaconda.org/pyviz/nbsite
+  # - pyviz::nbsite=0.8.2 # https://anaconda.org/pyviz/nbsite
+  # - panel=1.2.3 # https://anaconda.org/conda-forge/panel/files
+  # - bokeh=3.2.2 # https://anaconda.org/conda-forge/bokeh/files
+  # - pandas=2.1.1 # https://anaconda.org/conda-forge/pandas/files

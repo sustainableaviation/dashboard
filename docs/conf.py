@@ -16,7 +16,7 @@ version: str = 'latest' # required by the version switcher
 ### Project Configuration #########################################################################
 ###################################################################################################
 
-needs_sphinx = '7.2.6'
+# needs_sphinx = '7.2.6' # update as soon as myst-nb has been updated to allow for sphinx 7
 
 extensions = [
     # core extensions
@@ -40,6 +40,8 @@ extensions = [
     "sphinx_copybutton",
     # wasm
     #"jupyterlite_sphinx",
+    # dashboard
+    # 'nbsite.pyodide',
 ]
 
 root_doc = 'index'
@@ -113,6 +115,15 @@ html_context = {
 ####################################################################################################
 ### Extension Configuration ########################################################################
 ####################################################################################################
+
+# pyviz.nbsite Configuration ############################################
+# https://panel.holoviz.org/how_to/wasm/sphinx.html#configuration
+
+# nbsite_pyodide_conf = {
+#     "PYODIDE_URL": "https://cdn.jsdelivr.net/pyodide/v0.24.1/full/", # https://pyodide.org/en/stable/usage/downloading-and-deploying.html#cdn
+#     "autodetect_deps": True,
+#     "enable_pwa": True,
+# }
 
 # linkcheck Configuration ###############################################
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
